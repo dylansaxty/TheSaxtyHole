@@ -1,1 +1,37 @@
+body{ 
+      background-color: #0000;
+    }
 
+#wrapper{
+         width: 800px;
+         height: 20px auto;
+        }
+
+#header{ 
+        width: 800px;
+        height: 100px;
+        background-color: blue;
+      }
+#navBar{
+         width: 800px;
+         height: 30px;
+         background-color: green;
+         margin: 0;
+         padding-top: 5px;
+       }
+#navBar li{
+            display: inline;
+            float: right;
+            padding-right: 20px;
+            color: yellow;
+          }
+
+#content{
+          width: 800px;
+          height: 500px;
+          background-color: yellow;
+        }
+#contentTxt{
+             margin: 0;
+             padding: 20px 0 0 20px;
+           }
