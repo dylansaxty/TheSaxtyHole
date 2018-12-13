@@ -6,13 +6,27 @@ wrapper{
          width: 800px;
          height: 20px auto;
         }
-
+#navbar {
+	width: auto;
+	height:30px;
+	background-color: #92DFEF;
+	margin:0;
+	}
+	
+		
+#navbar ul {
+			padding-top:5px;
+			}
+		
+#navbar ul li {
+			display:inline;
+			}
 #header{ 
         width: 800px;
         height: 100px;
         background-color: blue;
       }
-navBar{
+/*--navBar{
          width: 800px;
          height: 30px;
          background-color: green;
@@ -25,7 +39,7 @@ navBar li{
             padding-right: 20px;
             color: yellow;
           }
-
+--*/
 content{
           width: 800px;
           height: 500px;
